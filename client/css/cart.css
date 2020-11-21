@@ -3,9 +3,133 @@ main
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #d3d3d3;
 }
 
-#main-title
-{
-	font-size: clamp(60px, 10vw, 100px);
+
+.container {
+	width: 80%;
+	padding: 10px;
+	align-items: center;
+
+}
+.cart {
+    font-size: 50px;
+    padding: 20px;
+}
+hr.new {
+	border-top: 1px dotted black;
+}
+
+th {
+	
+	align-content: center;
+	padding: 10px;
+
+}
+td {
+	align-items: center;
+	width: auto;
+	padding: 10px;
+}
+
+h1 {
+text-align: center;
+padding: 10px;
+}
+
+button {
+	border-radius: .25rem!important;
+	width: 120%;
+	height: auto;
+	font-size: 18px;
+}
+button:hover {
+	background-color: black;
+	color: white;
+
+}
+.rounded {
+    border-radius: .25rem!important;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+    width: 100px;
+    height: auto;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.5rem);
+    padding: .75rem 1.5rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #f7f7f9;
+    background-clip: padding-box;
+    border: 0 solid #ced4da;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+select {
+    word-wrap: normal;
+}
+ select {
+    text-transform: none;
+}
+ input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
 }
